@@ -1,5 +1,4 @@
-//Typescript Assignment Solution'10
-//My name is MAIRA
-//Date: 24/02/2024
-//This program will run simple code Hello World
-console.log("Hello World");
+var members = ['rukhsar', 'ayesha', 'faiza', 'bisma', 'maira', 'usama', 'minhaj', 'umair'];
+for (var i = 0; i < members.length; i++) {
+    console.log(members[i]);
+}
