@@ -1,5 +1,4 @@
-var members = ['rukhsar', 'ayesha', 'faiza', 'bisma', 'maira', 'usama', 'minhaj', 'umair'];
-var message = "Have you completed the assignment?";
-for (var i = 0; i < members.length; i++) {
-    console.log(message + members[i]);
+var transportation = ['Nissan', 'Hyundai Sonata', 'Mercedes', 'Audi', 'Lamborghini'];
+for (var i = 0; i < transportation.length; i++) {
+    console.log('I would like to own a ' + transportation[i]);
 }
