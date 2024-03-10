@@ -1,18 +1,24 @@
-//Guest List Exercise 14
-var guest_list = ['Rukhsar', 'Faiza', 'Bisma', 'Aizay'];
-// for(let i=0; i<guest_list.length; i++){
-//     console.log('Respected Madam ' + guest_list[i] + ',\nI invite you for dinner tonight.\nThank You\n')
-// }
-//Changing Guest List Exercise 15
-var not_present = 'Bisma';
-var new_guest = 'Ayesha';
-guest_list[2] = new_guest;
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected Madam ' + guest_list[i] + ',\nI invite you for dinner tonight.\nThank You\n');
-}
-console.log("Madam ".concat(not_present, " is not coming tonight dinner.\n "));
-//More Guest Exercise 16
-guest_list.unshift('Numaila', 'Noor');
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected Madam ' + guest_list[i] + ',\nI invite you for dinner tonight. We got a big dinner table so we decided to invite two more guests.\nThank You\n');
-}
+//3 Cases
+var userName = "Maira"; //e.g. camelcase
+var user_name = "Maira"; //e.g. snakecase
+var UserName = "Maira Shaikh"; //e.g. pascalcase
+var isUserExist = true;
+var is_user_exist = false;
+var IsUSerExist = 5;
+var anyType;
+console.log(userName, user_name, UserName);
+console.log(isUserExist, is_user_exist, IsUSerExist);
+console.log(anyType);
+//Arrays:
+var students = ['Maira', 'Alizay', 'Rukhsar', 'Ayesha'];
+console.log(students);
+var firstStudentName = students[0];
+console.log(firstStudentName);
+console.log(students[1], students[2]);
+var numbers = [1, 2, 3, 4, 5, 6, 7];
+var boolean = [true, false];
+console.log(numbers);
+console.log(boolean);
+var fruits = ['apple', 'mango', 'bannana',];
+fruits[1] = 'orange';
+console.log(fruits);
